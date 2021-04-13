@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 452984407}
   - component: {fileID: 452984406}
   m_Layer: 0
-  m_Name: Quad (2)
+  m_Name: Quad_Wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,7 +187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6d7398486db8048678cebbc2d14ae970, type: 2}
+  - {fileID: 2100000, guid: 64b3ca4a35a4641f88e6842a8ab80ae8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21598,7 +21598,7 @@ GameObject:
   - component: {fileID: 677038684}
   - component: {fileID: 677038683}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Quad_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24032,7 +24032,7 @@ GameObject:
   - component: {fileID: 2125594118}
   - component: {fileID: 2125594117}
   m_Layer: 0
-  m_Name: Quad (1)
+  m_Name: Quad_Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24084,7 +24084,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5f326dfd78a8b41a7bd893b5880fd104, type: 2}
+  - {fileID: 2100000, guid: ac6f7a9fc9894408291f3d567754c228, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
