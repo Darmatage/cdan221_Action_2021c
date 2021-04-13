@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
 
-    //public Animator animator;
+    public Animator animator;
     public Rigidbody2D rb2D;
     private bool FaceRight = true; // determine which way player is facing.
     public float runSpeed = 10f;
@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour
 
     void Start()
     {
-        //animator = gameObject.GetComponentInChildren<Animator>();
+        animator = gameObject.GetComponentInChildren<Animator>();
         rb2D = transform.GetComponent<Rigidbody2D>();
     }
 
@@ -27,9 +27,9 @@ public class PlayerMove : MonoBehaviour
             transform.position = transform.position + hMove * runSpeed * Time.deltaTime;
         }
 
-        // if (Input.GetAxis("Horizontal") != 0){
-        //       animator.SetBool ("Walk", true);
-        // } else {animator.SetBool ("Walk", false);}
+        if (Input.GetAxis("Horizontal") != 0){
+               animator.SetBool ("Walk", true);
+        } else {animator.SetBool ("Walk", false);}
 
         // NOTE: if input is moving the Player right and Player faces left, turn, and vice-versa
         if ((hMove.x > 0 && !FaceRight) || (hMove.x < 0 && FaceRight))
