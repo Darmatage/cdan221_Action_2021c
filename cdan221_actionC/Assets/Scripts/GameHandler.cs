@@ -68,8 +68,9 @@ public class GameHandler : MonoBehaviour
 
     public void UpdateHealth()
     {
-        Text healthTextB = healthText.GetComponent<Text>();
-        healthTextB.text = "Current Health: " + CurrentHealth + "\n Max Health: " + MaxHealth;
+		updateStatsDisplay();
+        //Text healthTextB = healthText.GetComponent<Text>();
+		//healthTextB.text = "Current Health: " + CurrentHealth + "\n Max Health: " + MaxHealth;
     }
     public void updateStatsDisplay()
     {

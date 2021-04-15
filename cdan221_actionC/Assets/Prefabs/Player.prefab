@@ -45,6 +45,8 @@ GameObject:
   - component: {fileID: 2864654466606463126}
   - component: {fileID: 2864654466606463127}
   - component: {fileID: 2864654466606463112}
+  - component: {fileID: 3145841404671810399}
+  - component: {fileID: 8573730520838957643}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -182,6 +184,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2D: {fileID: 0}
+--- !u!114 &3145841404671810399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2864654466606463121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d86b39f2c8e2a47bfa92a9a5bbfef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulSetting: {fileID: 0}
+  soulCoolDown: 2
+  SoulsightActive: 0
+--- !u!114 &8573730520838957643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2864654466606463121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40888d5b31de30341b4c6b51cee5d1bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
 --- !u!1 &2864654466867080982
 GameObject:
   m_ObjectHideFlags: 0
