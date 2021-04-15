@@ -22237,7 +22237,7 @@ GameObject:
   - component: {fileID: 768850256}
   m_Layer: 8
   m_Name: TilemapSoulsight
-  m_TagString: Untagged
+  m_TagString: Soulsight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

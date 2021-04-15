@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GameHandler
   - PauseMenuSlider
+  - Soulsight
   layers:
   - Default
   - TransparentFX
