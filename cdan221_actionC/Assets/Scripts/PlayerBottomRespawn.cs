@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerBottomRespawn : MonoBehaviour
@@ -8,7 +8,7 @@ public class PlayerBottomRespawn : MonoBehaviour
     public GameHandler gameHandler;
     public Transform playerPos;
     public Transform pSpawn;
-    //public int damage = 10;
+    public int damage = 10;
 
     void Start()
     {
@@ -24,9 +24,9 @@ public class PlayerBottomRespawn : MonoBehaviour
             {
                 //instantiate a particle effect
                 Debug.Log("I am going back to the start");
-                //gameHandler.TakeDamage(damage);
-                //Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, pPos.position.z);
-                //playerPos.position = pSpn2;
+                gameHandler.TakeDamage(damage);
+                Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, playerPos.position.z);
+                playerPos.position = pSpn2;
             }
         }
     }

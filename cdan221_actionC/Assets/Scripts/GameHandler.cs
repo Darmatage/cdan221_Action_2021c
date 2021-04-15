@@ -1,24 +1,37 @@
 ﻿using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameHandler : MonoBehaviour
 {
 
     private GameObject player;
-      public static int playerHealth;
+    public static int playerHealth;
     public int StartPlayerHealth = 100;
     public GameObject healthText;
 
     public static int gotTokens = 0;
+    public GameObject tokensText;
+
     public bool isDefending = false;
+
+    public static int MaxHealth = 100;
+    public static int CurrentHealth = 100;
+    private string sceneName;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         playerHealth = StartPlayerHealth;
-        updateHealthDisplay();
+        updateStatsDisplay();
+    }
+
+    public void playerGetTokens(int newTokens)
+    {
+        gotTokens += newTokens;
+        updateStatsDisplay();
     }
 
     public void playerGetHit(int damage)
@@ -26,7 +39,7 @@ public class GameHandler : MonoBehaviour
         if (isDefending == false)
         {
             playerHealth -= damage;
-            updateHealthDisplay();
+            updateStatsDisplay();
             player.GetComponent<PlayerHurt>().playerHit();
         }
 
@@ -41,13 +54,31 @@ public class GameHandler : MonoBehaviour
             playerDies();
         }
     }
-
-    public void updateHealthDisplay()
+    public void TakeDamage(int damage)
     {
-        //Text healthTextTemp = healthText.GetComponent<Text>();
-        //healthTextTemp.text = "PLAYER HEALTH: " + playerHealth;
+        CurrentHealth -= damage;
+        UpdateHealth();
+        sceneName = SceneManager.GetActiveScene().name;
+        if (CurrentHealth >= MaxHealth) { CurrentHealth = MaxHealth; }
+        if ((CurrentHealth <= 0) && (sceneName != "EndLose"))
+        {
+            SceneManager.LoadScene("EndLose");
+        }
     }
 
+    public void UpdateHealth()
+    {
+        Text healthTextB = healthText.GetComponent<Text>();
+        healthTextB.text = "Current Health: " + CurrentHealth + "\n Max Health: " + MaxHealth;
+    }
+    public void updateStatsDisplay()
+    {
+        Text healthTextTemp = healthText.GetComponent<Text>();
+        healthTextTemp.text = "HEALTH: " + playerHealth;
+
+        Text tokensTextTemp = tokensText.GetComponent<Text>();
+        tokensTextTemp.text = "ORBS: " + gotTokens;
+    }
 
     public void playerDies()
     {
@@ -65,7 +96,7 @@ public class GameHandler : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level_1");
     }
 
     public void RestartGame()
