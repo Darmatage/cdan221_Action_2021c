@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Soulsight : MonoBehaviour{
-	//NOTE: Soulsight platforms need to be active in scnee before hitting play
-	
+	//NOTE: Soulsight platforms need to be active in scene before hitting play
+
+	public PlayerVFX playerVFX;
 	public GameObject soulSetting;
-	public float soulCoolDown = 2f;
+	public static float soulCoolDown = 3f;
 	private float soulTimer = 0f;
 	public bool SoulsightActive = false;
 	
     // Start is called before the first frame update
     void Start()
     {
+		playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
 		if (GameObject.FindWithTag("Soulsight") != null){
 			soulSetting = GameObject.FindWithTag("Soulsight");
 			
@@ -25,6 +27,7 @@ public class Player_Soulsight : MonoBehaviour{
     {
         
 		if (Input.GetButtonDown("SoulSight") && (soulSetting != null)){
+			playerVFX.powerup();
 			soulSetting.SetActive(true);
 			SoulsightActive = true;
 			soulTimer = 0f;
@@ -36,7 +39,7 @@ public class Player_Soulsight : MonoBehaviour{
 	void FixedUpdate(){
 		soulTimer += 0.01f;
 		
-		Debug.Log("" + soulTimer);
+		//Debug.Log("" + soulTimer);
 		
 		
 	}
