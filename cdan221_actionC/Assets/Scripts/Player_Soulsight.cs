@@ -4,54 +4,93 @@ using UnityEngine;
 
 public class Player_Soulsight : MonoBehaviour{
 	//NOTE: Soulsight platforms need to be active in scene before hitting play
-
+	//NOTE #2: orbCurrentPower is a static variable in the GameHandler
 	public PlayerVFX playerVFX;
 	public GameObject soulSetting;
-	public static float soulCoolDown = 3f;
 	private float soulTimer = 0f;
 	public bool SoulsightActive = false;
+	
+	public GameHandler gameHandler;
+	private float powerPerOrb = 3.0f;
+	public static float soulEnergy = 0;
+	
 	
     // Start is called before the first frame update
     void Start()
     {
 		playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
+		
 		if (GameObject.FindWithTag("Soulsight") != null){
 			soulSetting = GameObject.FindWithTag("Soulsight");
-			
 			soulSetting.SetActive(false);
 		}
+		
+		if (GameObject.FindWithTag("GameHandler") != null){
+			gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+			soulSetting.SetActive(false);
+		}
+		
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-		if (Input.GetButtonDown("SoulSight") && (soulSetting != null)){
-			playerVFX.powerup();
-			soulSetting.SetActive(true);
-			SoulsightActive = true;
-			soulTimer = 0f;
-			StartCoroutine(SoulRemove(soulCoolDown));
+        if (Input.GetButtonDown("SoulSight") && (soulSetting != null)){
+			if ((soulEnergy > 0) && (SoulsightActive == false)){
+				playerVFX.powerup();
+				soulSetting.SetActive(true);
+				SoulsightActive = true;
+				Debug.Log("I hit e - on");
+				//soulTimer = 0f;
+				//StartCoroutine(SoulRemove(soulEnergy));
+			}
+			else if (SoulsightActive == true){
+				//playerVFX.powerup();
+				soulSetting.SetActive(false);
+				SoulsightActive = false;
+				//soulTimer = 0f;
+				//StopCoroutine(SoulRemove(soulEnergy));
+				Debug.Log("I hit e - off");
+			}
 		}
     }
 	
 	
 	void FixedUpdate(){
-		soulTimer += 0.01f;
-		
-		//Debug.Log("" + soulTimer);
-		
-		
-	}
-	
-	
-	IEnumerator SoulRemove(float soulCoolDown){
-		yield return new WaitForSeconds(soulCoolDown);  
-		SoulsightActive = false;
-		if (soulSetting != null){
-			soulSetting.SetActive(false);
+
+		if (SoulsightActive == true){
+			//soulTimer += 0.01f;
+			soulEnergy -= 0.01f;
+			Debug.Log("" + soulEnergy);
+			gameHandler.playerUpdateSoulEnergy(-0.01f);
+			if (soulEnergy <= 0){
+				SoulsightActive = false;
+				if (soulSetting != null){
+					soulSetting.SetActive(false);
+				}
+			}
 		}
+				
 	}
+	
+	
+	public void playerGetOrbs(int newOrbs)
+    {
+		soulEnergy += powerPerOrb;
+		gameHandler.playerUpdateSoulEnergy(powerPerOrb);
+        //gotOrbs += newOrbs;
+        //updateStatsDisplay();
+    }
+	
+	
+	// IEnumerator SoulRemove(float soulEnergy){
+		// yield return new WaitForSeconds(soulEnergy);  
+		// SoulsightActive = false;
+		// if (soulSetting != null){
+			// soulSetting.SetActive(false);
+		// }
+		// gameHandler.orbCurrentPower = soulEnergy;
+	// }
 	
 	
 }

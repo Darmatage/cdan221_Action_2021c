@@ -5,7 +5,7 @@ using UnityEngine;
 public class OrbPickup : MonoBehaviour
 {
 
-    public GameHandler gameHandler;
+    public Player_Soulsight playerSoulSight;
     public PlayerVFX playerVFX;
     public bool isHealthPickUp = true;
     public bool isObjectPickUp = false;
@@ -16,7 +16,7 @@ public class OrbPickup : MonoBehaviour
 
     void Start()
     {
-        gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+        playerSoulSight = GameObject.FindWithTag("Player").GetComponent<Player_Soulsight>();
         playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
     }
 
@@ -24,7 +24,7 @@ public class OrbPickup : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
-            gameHandler.playerGetOrbs(newOrbs);
+            playerSoulSight.playerGetOrbs(newOrbs);
             Debug.Log(newOrbs);
             playerVFX.powerup();
             Destroy(gameObject);

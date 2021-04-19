@@ -12,8 +12,8 @@ public class GameHandler : MonoBehaviour
     public int StartPlayerHealth = 100;
     public GameObject healthText;
 
-    public int gotOrbs = 0;
-    public GameObject orbsText;
+	public float soulEnergy;
+    public GameObject energyText;
 
     public bool isDefending = false;
 
@@ -28,11 +28,12 @@ public class GameHandler : MonoBehaviour
         updateStatsDisplay();
     }
 
-    public void playerGetOrbs(int newOrbs)
+	public void playerUpdateSoulEnergy(float newEnergy)
     {
-        gotOrbs += newOrbs;
+        soulEnergy += newEnergy;
         updateStatsDisplay();
     }
+
 
     public void playerGetHit(int damage)
     {
@@ -77,8 +78,8 @@ public class GameHandler : MonoBehaviour
         Text healthTextTemp = healthText.GetComponent<Text>();
         healthTextTemp.text = "HEALTH: " + playerHealth;
 
-        Text orbsTextTemp = orbsText.GetComponent<Text>();
-        orbsTextTemp.text = "ORBS: " + gotOrbs;
+        Text energyTextTemp = energyText.GetComponent<Text>();
+        energyTextTemp.text = "SOULSIGHT: " + soulEnergy;
     }
 
     public void playerDies()
