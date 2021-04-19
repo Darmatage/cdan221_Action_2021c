@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerJump : MonoBehaviour
 {
 
-    //public Animator animator;
+    public Animator animator;
     public Rigidbody2D rb;
     public float jumpForce = 20f;
     public Transform feet;
@@ -15,7 +15,7 @@ public class PlayerJump : MonoBehaviour
 
     void Start()
     {
-        //animator = gameObject.GetComponentInChildren<Animator>();
+        animator = gameObject.GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -24,12 +24,20 @@ public class PlayerJump : MonoBehaviour
         if ((Input.GetButtonDown("Jump")) && (IsGrounded()) && (isAlive == true))
         {
             Jump();
+            animator.SetBool("isJumping", true);
             //animator.SetTrigger("Jump");
+            //Debug.Log("isJumping true");
+        }
+        else if (IsGrounded())
+        {
+            animator.SetBool("isJumping", false);
+            //Debug.Log("isJumping false");
+        }
+        else 
+        { 
+            animator.SetBool("isJumping", true); 
         }
 
-        //if (Input.GetKeyDown(KeyCode.B)){
-        // Debug.Log("Can I jump?: The answer: " + IsGrounded());
-        //}
     }
 
     public void Jump()
