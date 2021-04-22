@@ -11,9 +11,9 @@ public class Player_Soulsight : MonoBehaviour{
 	public bool SoulsightActive = false;
 	
 	public GameHandler gameHandler;
-	private float powerPerOrb = 3.0f;
+	private float powerPerOrb = 0.1f;
 	public static float soulEnergy = 0;
-	
+	public static float soulEnergyMax = 6f;
 	
     // Start is called before the first frame update
     void Start()
@@ -53,8 +53,7 @@ public class Player_Soulsight : MonoBehaviour{
 				Debug.Log("I hit e - off");
 			}
 		}
-		if (soulEnergy < 0)
-		{
+		if (soulEnergy <= 0){
 			soulEnergy = 0;
 		}
 	}
@@ -75,13 +74,21 @@ public class Player_Soulsight : MonoBehaviour{
 				}
 			}
 		}
+		
+		if ((SoulsightActive == false)&&(soulEnergy < soulEnergyMax)){ 
+			soulEnergy += 0.01f;
+			Debug.Log("" + soulEnergy);
+			gameHandler.playerUpdateSoulEnergy(+0.01f);
+		}
+		
+		
 				
 	}
 	
 	
 	public void playerGetOrbs(int newOrbs)
     {
-		soulEnergy += powerPerOrb;
+		soulEnergyMax += powerPerOrb;
 		gameHandler.playerUpdateSoulEnergy(powerPerOrb);
         //gotOrbs += newOrbs;
         //updateStatsDisplay();

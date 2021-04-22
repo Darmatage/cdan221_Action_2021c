@@ -24,6 +24,7 @@ public class OrbPickup : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
+			gameObject.GetComponent<Collider2D>().enabled = false;
             playerSoulSight.playerGetOrbs(newOrbs);
             Debug.Log(newOrbs);
             playerVFX.powerup();
