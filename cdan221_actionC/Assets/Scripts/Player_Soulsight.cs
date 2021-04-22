@@ -53,7 +53,11 @@ public class Player_Soulsight : MonoBehaviour{
 				Debug.Log("I hit e - off");
 			}
 		}
-    }
+		if (soulEnergy < 0)
+		{
+			soulEnergy = 0;
+		}
+	}
 	
 	
 	void FixedUpdate(){
@@ -65,6 +69,7 @@ public class Player_Soulsight : MonoBehaviour{
 			gameHandler.playerUpdateSoulEnergy(-0.01f);
 			if (soulEnergy <= 0){
 				SoulsightActive = false;
+				soulEnergy = 0;
 				if (soulSetting != null){
 					soulSetting.SetActive(false);
 				}
