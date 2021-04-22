@@ -8,6 +8,7 @@ TagManager:
   - PauseMenuSlider
   - Soulsight
   - MemoryOrb
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

@@ -61,9 +61,9 @@ public class GameHandler : MonoBehaviour
         UpdateHealth();
         sceneName = SceneManager.GetActiveScene().name;
         if (CurrentHealth >= MaxHealth) { CurrentHealth = MaxHealth; }
-        if ((CurrentHealth <= 0) && (sceneName != "EndLose"))
+        //if ((CurrentHealth <= 0) && (sceneName != "EndLose"))
         {
-            SceneManager.LoadScene("EndLose");
+            //SceneManager.LoadScene("EndLose");
         }
     }
 
@@ -85,7 +85,8 @@ public class GameHandler : MonoBehaviour
     public void playerDies()
     {
         player.GetComponent<PlayerHurt>().playerDead();
-        StartCoroutine(DeathPause());
+
+        //StartCoroutine(DeathPause());
     }
 
     IEnumerator DeathPause()
