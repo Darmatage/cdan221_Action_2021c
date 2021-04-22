@@ -9,6 +9,7 @@ TagManager:
   - Soulsight
   - MemoryOrb
   - Checkpoint
+  - SpiritNPC
   layers:
   - Default
   - TransparentFX
