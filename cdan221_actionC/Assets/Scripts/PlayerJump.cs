@@ -24,18 +24,18 @@ public class PlayerJump : MonoBehaviour
         if ((Input.GetButtonDown("Jump")) && (IsGrounded()) && (isAlive == true))
         {
             Jump();
-            animator.SetBool("isJumping", true);
-            //animator.SetTrigger("Jump");
+            //animator.SetBool("isJumping", true);
+            animator.SetTrigger("Jump");
             //Debug.Log("isJumping true");
         }
         else if (IsGrounded())
         {
-            animator.SetBool("isJumping", false);
+            //animator.SetBool("isJumping", false);
             //Debug.Log("isJumping false");
         }
         else 
         { 
-            animator.SetBool("isJumping", true); 
+            //animator.SetBool("isJumping", true); 
         }
 
     }
