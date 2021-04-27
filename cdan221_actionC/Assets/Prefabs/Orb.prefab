@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 8463689130426408061}
   - component: {fileID: 8463689130426408062}
   - component: {fileID: 8463689130426408063}
+  - component: {fileID: 5156505987039463413}
   m_Layer: 0
   m_Name: Orb
   m_TagString: MemoryOrb
@@ -181,3 +182,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.88855815, y: 0.42}
   m_EdgeRadius: 0
+--- !u!114 &5156505987039463413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463689130426408060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3f67f090993dc4a9b7e8a00c9aa147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSoulSight: {fileID: 0}
+  playerVFX: {fileID: 0}
+  isHealthPickUp: 1
+  isObjectPickUp: 0
+  isSpeedBoostPickUp: 0
+  newOrbs: 1
+  speedBoost: 1
+  speedTime: 1
