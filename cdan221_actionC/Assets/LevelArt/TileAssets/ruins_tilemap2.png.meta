@@ -1,0 +1,3347 @@
+fileFormatVersion: 2
+guid: 00b3b2747ad1f6240bb753259bec91d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9002323201024315165
+    second: ruins_tilemap2_0
+  - first:
+      213: 8238309728627230914
+    second: ruins_tilemap2_1
+  - first:
+      213: 7491725047592800234
+    second: ruins_tilemap2_2
+  - first:
+      213: -6258176554171161638
+    second: ruins_tilemap2_3
+  - first:
+      213: -6612939488299418935
+    second: ruins_tilemap2_4
+  - first:
+      213: 4342724645721206587
+    second: ruins_tilemap2_5
+  - first:
+      213: 8861789442590841721
+    second: ruins_tilemap2_6
+  - first:
+      213: 3386671820962098783
+    second: ruins_tilemap2_7
+  - first:
+      213: -758376391001724389
+    second: ruins_tilemap2_8
+  - first:
+      213: 4998324393727039171
+    second: ruins_tilemap2_9
+  - first:
+      213: -7187710172005533355
+    second: ruins_tilemap2_10
+  - first:
+      213: -6400133017150503362
+    second: ruins_tilemap2_11
+  - first:
+      213: 4404764252790686422
+    second: ruins_tilemap2_12
+  - first:
+      213: -942541708192869930
+    second: ruins_tilemap2_13
+  - first:
+      213: 4332194982535401945
+    second: ruins_tilemap2_14
+  - first:
+      213: 6963339315412633104
+    second: ruins_tilemap2_15
+  - first:
+      213: -2011258196780248533
+    second: ruins_tilemap2_16
+  - first:
+      213: 2718782703136014654
+    second: ruins_tilemap2_17
+  - first:
+      213: 885336734327183108
+    second: ruins_tilemap2_18
+  - first:
+      213: 9004357316492313769
+    second: ruins_tilemap2_19
+  - first:
+      213: -5634053643014012500
+    second: ruins_tilemap2_20
+  - first:
+      213: 2334610678359390929
+    second: ruins_tilemap2_21
+  - first:
+      213: -5360857802357100297
+    second: ruins_tilemap2_22
+  - first:
+      213: 6769605631426359945
+    second: ruins_tilemap2_23
+  - first:
+      213: -3144616087250896712
+    second: ruins_tilemap2_24
+  - first:
+      213: 2586158266502817487
+    second: ruins_tilemap2_25
+  - first:
+      213: -7327073901742761067
+    second: ruins_tilemap2_26
+  - first:
+      213: -5308617599043212621
+    second: ruins_tilemap2_27
+  - first:
+      213: 3769393405384527333
+    second: ruins_tilemap2_28
+  - first:
+      213: 743425428561412142
+    second: ruins_tilemap2_29
+  - first:
+      213: 5867796214598281068
+    second: ruins_tilemap2_30
+  - first:
+      213: -531649020894063545
+    second: ruins_tilemap2_31
+  - first:
+      213: -2178076075631755399
+    second: ruins_tilemap2_32
+  - first:
+      213: 6686736237442816627
+    second: ruins_tilemap2_33
+  - first:
+      213: 5320516211854073409
+    second: ruins_tilemap2_34
+  - first:
+      213: 2031324723897015469
+    second: ruins_tilemap2_35
+  - first:
+      213: 172099116359378392
+    second: ruins_tilemap2_36
+  - first:
+      213: -8160856889965714536
+    second: ruins_tilemap2_37
+  - first:
+      213: 1450531990166718438
+    second: ruins_tilemap2_38
+  - first:
+      213: 626983239161755999
+    second: ruins_tilemap2_39
+  - first:
+      213: 3646434547407794944
+    second: ruins_tilemap2_40
+  - first:
+      213: -1516845504218749193
+    second: ruins_tilemap2_41
+  - first:
+      213: -2610706221125105159
+    second: ruins_tilemap2_42
+  - first:
+      213: 8240812876234713991
+    second: ruins_tilemap2_43
+  - first:
+      213: -4860866733825978447
+    second: ruins_tilemap2_44
+  - first:
+      213: -115355989183782044
+    second: ruins_tilemap2_45
+  - first:
+      213: 2240528771354560605
+    second: ruins_tilemap2_46
+  - first:
+      213: 1006292560933875517
+    second: ruins_tilemap2_47
+  - first:
+      213: -6901610667742029629
+    second: ruins_tilemap2_48
+  - first:
+      213: -7247077557884571511
+    second: ruins_tilemap2_49
+  - first:
+      213: -2499141939672774194
+    second: ruins_tilemap2_50
+  - first:
+      213: -4695004496832003534
+    second: ruins_tilemap2_51
+  - first:
+      213: -7312012695907274855
+    second: ruins_tilemap2_52
+  - first:
+      213: -681001110666062059
+    second: ruins_tilemap2_53
+  - first:
+      213: -7700213109832597731
+    second: ruins_tilemap2_54
+  - first:
+      213: 1281431329191248395
+    second: ruins_tilemap2_55
+  - first:
+      213: -2500671590636804377
+    second: ruins_tilemap2_56
+  - first:
+      213: 4729398884940983341
+    second: ruins_tilemap2_57
+  - first:
+      213: -8530722885785408404
+    second: ruins_tilemap2_58
+  - first:
+      213: -915239953212386854
+    second: ruins_tilemap2_59
+  - first:
+      213: -5348175246303629438
+    second: ruins_tilemap2_60
+  - first:
+      213: -4225098092810748955
+    second: ruins_tilemap2_61
+  - first:
+      213: -8944230312697462348
+    second: ruins_tilemap2_62
+  - first:
+      213: -7344780734743222479
+    second: ruins_tilemap2_63
+  - first:
+      213: -9176923747718108802
+    second: ruins_tilemap2_64
+  - first:
+      213: 4708571890162913015
+    second: ruins_tilemap2_65
+  - first:
+      213: 5599974796143777397
+    second: ruins_tilemap2_66
+  - first:
+      213: 6279728059861959930
+    second: ruins_tilemap2_67
+  - first:
+      213: -6708565028085161988
+    second: ruins_tilemap2_68
+  - first:
+      213: 1772041645360541091
+    second: ruins_tilemap2_69
+  - first:
+      213: -4376992031752678996
+    second: ruins_tilemap2_70
+  - first:
+      213: -5028356280500874094
+    second: ruins_tilemap2_71
+  - first:
+      213: -2216760389662796577
+    second: ruins_tilemap2_72
+  - first:
+      213: 5097359597767340359
+    second: ruins_tilemap2_73
+  - first:
+      213: 5211366288152714386
+    second: ruins_tilemap2_74
+  - first:
+      213: 4182189848535731610
+    second: ruins_tilemap2_75
+  - first:
+      213: -2615274667009495779
+    second: ruins_tilemap2_76
+  - first:
+      213: -1473512669381290992
+    second: ruins_tilemap2_77
+  - first:
+      213: 7947857555257757847
+    second: ruins_tilemap2_78
+  - first:
+      213: -1262022344721767460
+    second: ruins_tilemap2_79
+  - first:
+      213: 3797700863315954067
+    second: ruins_tilemap2_80
+  - first:
+      213: 221865827469290917
+    second: ruins_tilemap2_81
+  - first:
+      213: 7584245069688377904
+    second: ruins_tilemap2_82
+  - first:
+      213: -892354204529054669
+    second: ruins_tilemap2_83
+  - first:
+      213: 6855174306046027457
+    second: ruins_tilemap2_84
+  - first:
+      213: -4420719355716343962
+    second: ruins_tilemap2_85
+  - first:
+      213: 2083689769980513539
+    second: ruins_tilemap2_86
+  - first:
+      213: -6102098293637790151
+    second: ruins_tilemap2_87
+  - first:
+      213: -2842285872338021985
+    second: ruins_tilemap2_88
+  - first:
+      213: 3654313935853595890
+    second: ruins_tilemap2_89
+  - first:
+      213: -2758515557425115530
+    second: ruins_tilemap2_90
+  - first:
+      213: 4240627339511405444
+    second: ruins_tilemap2_91
+  - first:
+      213: 2153755831901541207
+    second: ruins_tilemap2_92
+  - first:
+      213: -4441383474026636908
+    second: ruins_tilemap2_93
+  - first:
+      213: -5275333891428226764
+    second: ruins_tilemap2_94
+  - first:
+      213: 440680231630470193
+    second: ruins_tilemap2_95
+  - first:
+      213: 3396774998856884566
+    second: ruins_tilemap2_96
+  - first:
+      213: -8857178167326507079
+    second: ruins_tilemap2_97
+  - first:
+      213: -2072194868601692403
+    second: ruins_tilemap2_98
+  - first:
+      213: 2851475814245105210
+    second: ruins_tilemap2_99
+  - first:
+      213: -2697986972990958665
+    second: ruins_tilemap2_100
+  - first:
+      213: 4484356092329050607
+    second: ruins_tilemap2_101
+  - first:
+      213: -7831267600116069481
+    second: ruins_tilemap2_102
+  - first:
+      213: -5259487343620931378
+    second: ruins_tilemap2_103
+  - first:
+      213: -5463456658788830097
+    second: ruins_tilemap2_104
+  - first:
+      213: -2827259107010458909
+    second: ruins_tilemap2_105
+  - first:
+      213: -390458143353562883
+    second: ruins_tilemap2_106
+  - first:
+      213: 1100574446765590876
+    second: ruins_tilemap2_107
+  - first:
+      213: -4213021286736426022
+    second: ruins_tilemap2_108
+  - first:
+      213: 3112343215940063046
+    second: ruins_tilemap2_109
+  - first:
+      213: 9163471992753725905
+    second: ruins_tilemap2_0
+  - first:
+      213: -8669294781543528784
+    second: ruins_tilemap2_1
+  - first:
+      213: 3915161201078732634
+    second: ruins_tilemap2_2
+  - first:
+      213: -622299260663936443
+    second: ruins_tilemap2_3
+  - first:
+      213: 3253021043627124093
+    second: ruins_tilemap2_4
+  - first:
+      213: 3326725835151094173
+    second: ruins_tilemap2_5
+  - first:
+      213: 3646156630118421286
+    second: ruins_tilemap2_6
+  - first:
+      213: 1666731228858484073
+    second: ruins_tilemap2_7
+  - first:
+      213: -925641409718671114
+    second: ruins_tilemap2_8
+  - first:
+      213: -7771181863984257440
+    second: ruins_tilemap2_9
+  - first:
+      213: -3916542773194867886
+    second: ruins_tilemap2_10
+  - first:
+      213: -1619325236037178074
+    second: ruins_tilemap2_11
+  - first:
+      213: 6099531256626339145
+    second: ruins_tilemap2_12
+  - first:
+      213: 1651521706344864420
+    second: ruins_tilemap2_13
+  - first:
+      213: 6911486526762613381
+    second: ruins_tilemap2_14
+  - first:
+      213: -7643232373042577624
+    second: ruins_tilemap2_15
+  - first:
+      213: 2720586099072984123
+    second: ruins_tilemap2_16
+  - first:
+      213: -5724264949143859099
+    second: ruins_tilemap2_17
+  - first:
+      213: 8044047221015753043
+    second: ruins_tilemap2_18
+  - first:
+      213: 4092318073443850737
+    second: ruins_tilemap2_19
+  - first:
+      213: -3864018449949458070
+    second: ruins_tilemap2_20
+  - first:
+      213: 3983095500433912563
+    second: ruins_tilemap2_21
+  - first:
+      213: 2487010417017412460
+    second: ruins_tilemap2_22
+  - first:
+      213: 5748842752973132980
+    second: ruins_tilemap2_23
+  - first:
+      213: -5445229139129857975
+    second: ruins_tilemap2_24
+  - first:
+      213: 6200932721143540519
+    second: ruins_tilemap2_25
+  - first:
+      213: -5928477966332830375
+    second: ruins_tilemap2_26
+  - first:
+      213: 7060766851896871636
+    second: ruins_tilemap2_27
+  - first:
+      213: 3000399628983459039
+    second: ruins_tilemap2_28
+  - first:
+      213: 2316823933328656252
+    second: ruins_tilemap2_29
+  - first:
+      213: -5062529905702386298
+    second: ruins_tilemap2_30
+  - first:
+      213: -1882572305835066684
+    second: ruins_tilemap2_31
+  - first:
+      213: 6427497518255642614
+    second: ruins_tilemap2_32
+  - first:
+      213: -7722930748556343744
+    second: ruins_tilemap2_33
+  - first:
+      213: -3781062456259557822
+    second: ruins_tilemap2_34
+  - first:
+      213: 7027551707917856996
+    second: ruins_tilemap2_35
+  - first:
+      213: 7332626874047052837
+    second: ruins_tilemap2_36
+  - first:
+      213: 834361119387492488
+    second: ruins_tilemap2_37
+  - first:
+      213: -5358970458280359198
+    second: ruins_tilemap2_38
+  - first:
+      213: -3919910253077263357
+    second: ruins_tilemap2_39
+  - first:
+      213: -904048221749905369
+    second: ruins_tilemap2_40
+  - first:
+      213: 2671023088717251281
+    second: ruins_tilemap2_41
+  - first:
+      213: 636221486791922311
+    second: ruins_tilemap2_42
+  - first:
+      213: 1960160763667866029
+    second: ruins_tilemap2_43
+  - first:
+      213: 7028441993575216972
+    second: ruins_tilemap2_44
+  - first:
+      213: -5932584896628385215
+    second: ruins_tilemap2_45
+  - first:
+      213: -5443957917180623654
+    second: ruins_tilemap2_46
+  - first:
+      213: 1814402532897535521
+    second: ruins_tilemap2_47
+  - first:
+      213: -5193714478035217820
+    second: ruins_tilemap2_48
+  - first:
+      213: -6370600543882154859
+    second: ruins_tilemap2_49
+  - first:
+      213: -9112323573722641194
+    second: ruins_tilemap2_50
+  - first:
+      213: -2661385985860725117
+    second: ruins_tilemap2_51
+  - first:
+      213: -5875996348075373935
+    second: ruins_tilemap2_52
+  - first:
+      213: 4956853093769775225
+    second: ruins_tilemap2_53
+  - first:
+      213: 5076234065377382006
+    second: ruins_tilemap2_54
+  - first:
+      213: 2952657754189937326
+    second: ruins_tilemap2_55
+  - first:
+      213: 4047185357084374992
+    second: ruins_tilemap2_56
+  - first:
+      213: 5167269122374852441
+    second: ruins_tilemap2_57
+  - first:
+      213: 2413054483211056630
+    second: ruins_tilemap2_58
+  - first:
+      213: -4431071663265467429
+    second: ruins_tilemap2_59
+  - first:
+      213: 6383224797886938043
+    second: ruins_tilemap2_60
+  - first:
+      213: 1475223810702599832
+    second: ruins_tilemap2_61
+  - first:
+      213: 2366212818833597934
+    second: ruins_tilemap2_62
+  - first:
+      213: -162851056787266945
+    second: ruins_tilemap2_63
+  - first:
+      213: -8515792890882665737
+    second: ruins_tilemap2_64
+  - first:
+      213: 8386975987536832858
+    second: ruins_tilemap2_65
+  - first:
+      213: -2900366420919045693
+    second: ruins_tilemap2_66
+  - first:
+      213: -599194842490235907
+    second: ruins_tilemap2_67
+  - first:
+      213: -4500073009489750419
+    second: ruins_tilemap2_68
+  - first:
+      213: 81789877914947902
+    second: ruins_tilemap2_69
+  - first:
+      213: 5435450301495964739
+    second: ruins_tilemap2_70
+  - first:
+      213: 9038829669768185951
+    second: ruins_tilemap2_71
+  - first:
+      213: 580724383075073265
+    second: ruins_tilemap2_72
+  - first:
+      213: -3927725606156472135
+    second: ruins_tilemap2_73
+  - first:
+      213: 678288116809554542
+    second: ruins_tilemap2_74
+  - first:
+      213: -6365255637533349610
+    second: ruins_tilemap2_75
+  - first:
+      213: -8565914805350606287
+    second: ruins_tilemap2_76
+  - first:
+      213: 7218664867834021091
+    second: ruins_tilemap2_77
+  - first:
+      213: 8049590502196102406
+    second: ruins_tilemap2_78
+  - first:
+      213: -9019408393698051595
+    second: ruins_tilemap2_79
+  - first:
+      213: 2168658139234632089
+    second: ruins_tilemap2_80
+  - first:
+      213: -809205694445380878
+    second: ruins_tilemap2_81
+  - first:
+      213: -2377951593272404604
+    second: ruins_tilemap2_82
+  - first:
+      213: 4976823106445356731
+    second: ruins_tilemap2_83
+  - first:
+      213: -7993705102936764787
+    second: ruins_tilemap2_84
+  - first:
+      213: -5420864889439895358
+    second: ruins_tilemap2_85
+  - first:
+      213: 7283096623934410604
+    second: ruins_tilemap2_86
+  - first:
+      213: -5745796094412753673
+    second: ruins_tilemap2_87
+  - first:
+      213: 4971279044220216226
+    second: ruins_tilemap2_88
+  - first:
+      213: 8939667346291467284
+    second: ruins_tilemap2_89
+  - first:
+      213: -9004705662895019878
+    second: ruins_tilemap2_90
+  - first:
+      213: 675365018840104134
+    second: ruins_tilemap2_91
+  - first:
+      213: -5919234036010054625
+    second: ruins_tilemap2_92
+  - first:
+      213: 7186510861709401673
+    second: ruins_tilemap2_93
+  - first:
+      213: -4245413371356069710
+    second: ruins_tilemap2_94
+  - first:
+      213: 7891693628524469939
+    second: ruins_tilemap2_95
+  - first:
+      213: -4244819765623222699
+    second: ruins_tilemap2_96
+  - first:
+      213: -7116187112475618162
+    second: ruins_tilemap2_97
+  - first:
+      213: -8057674649354214322
+    second: ruins_tilemap2_98
+  - first:
+      213: 6466192260730072144
+    second: ruins_tilemap2_99
+  - first:
+      213: 2409816772242759347
+    second: ruins_tilemap2_100
+  - first:
+      213: -2778576875379034334
+    second: ruins_tilemap2_101
+  - first:
+      213: 4373651131234966719
+    second: ruins_tilemap2_102
+  - first:
+      213: 4223326471920424640
+    second: ruins_tilemap2_103
+  - first:
+      213: 2005335360867191124
+    second: ruins_tilemap2_104
+  - first:
+      213: 8620889999242388745
+    second: ruins_tilemap2_105
+  - first:
+      213: 2664303889954289116
+    second: ruins_tilemap2_106
+  - first:
+      213: -3189735137520097353
+    second: ruins_tilemap2_107
+  - first:
+      213: -5121940138198899142
+    second: ruins_tilemap2_108
+  - first:
+      213: 4680305388919858263
+    second: ruins_tilemap2_109
+  - first:
+      213: 3836578551404764900
+    second: ruins_tilemap2_110
+  - first:
+      213: 2438082229555084588
+    second: ruins_tilemap2_111
+  - first:
+      213: -6124959832644282199
+    second: ruins_tilemap2_110
+  - first:
+      213: 6896580764710624197
+    second: ruins_tilemap2_111
+  - first:
+      213: -4577969325396504674
+    second: ruins_tilemap2_112
+  - first:
+      213: 5459689667436203762
+    second: ruins_tilemap2_113
+  - first:
+      213: 6843072055589902178
+    second: ruins_tilemap2_114
+  - first:
+      213: -6170102768433070220
+    second: ruins_tilemap2_115
+  - first:
+      213: 8329346421424200967
+    second: ruins_tilemap2_116
+  - first:
+      213: 4441339208933573162
+    second: ruins_tilemap2_112
+  - first:
+      213: -5345677493940923522
+    second: ruins_tilemap2_113
+  - first:
+      213: 5015771240942951423
+    second: ruins_tilemap2_114
+  - first:
+      213: 7198628905592525269
+    second: ruins_tilemap2_115
+  - first:
+      213: -6546963489827382562
+    second: ruins_tilemap2_116
+  - first:
+      213: -6962697621900828930
+    second: ruins_tilemap2_117
+  - first:
+      213: -8470490126509633474
+    second: ruins_tilemap2_118
+  - first:
+      213: 4230486333163035659
+    second: ruins_tilemap2_119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruins_tilemap2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1a35d2a313b2f70800000000000000
+      internalID: 9163471992753725905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b643fcf35a70b780800000000000000
+      internalID: -8669294781543528784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5780b47e52755630800000000000000
+      internalID: 3915161201078732634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a43289e162d57f0800000000000000
+      internalID: -622299260663936443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75e348676d052d20800000000000000
+      internalID: 3253021043627124093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91bb457587ea2e20800000000000000
+      internalID: 3326725835151094173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623d4ad0320c99230800000000000000
+      internalID: 3646156630118421286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9650920d83b612710800000000000000
+      internalID: 1666731228858484073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8a358ca067723f0800000000000000
+      internalID: -925641409718671114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066a248a447372490800000000000000
+      internalID: -7771181863984257440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb8183915a5a9c0800000000000000
+      internalID: -3916542773194867886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dad2207400789e0800000000000000
+      internalID: -1619325236037178074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dda977c53e5a450800000000000000
+      internalID: 6099531256626339145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa5885ed326be610800000000000000
+      internalID: 1651521706344864420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a7591a0688aef50800000000000000
+      internalID: 6911486526762613381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ff70df6a8cde590800000000000000
+      internalID: -7643232373042577624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b346c1094a671c520800000000000000
+      internalID: 2720586099072984123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5609f027b535f80b0800000000000000
+      internalID: -5724264949143859099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351bc1d045232af60800000000000000
+      internalID: 8044047221015753043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f918831b95dac830800000000000000
+      internalID: 4092318073443850737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61053531bf306ac0800000000000000
+      internalID: -3864018449949458070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f1d9114cc64730800000000000000
+      internalID: 3983095500433912563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bd40b2cc2a38220800000000000000
+      internalID: 2487010417017412460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4da80760ef7cf40800000000000000
+      internalID: 5748842752973132980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9480f81b2f8ae64b0800000000000000
+      internalID: -5445229139129857975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b6bd7b4732e0650800000000000000
+      internalID: 6200932721143540519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d500633b0d9bda0800000000000000
+      internalID: -5928477966332830375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8a21da02ecf160800000000000000
+      internalID: 7060766851896871636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd5c5d09f83a920800000000000000
+      internalID: 3000399628983459039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c778d21a713072020800000000000000
+      internalID: 2316823933328656252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68541d98fd74eb9b0800000000000000
+      internalID: -5062529905702386298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca76be4672cfd5e0800000000000000
+      internalID: -1882572305835066684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7155240fe033950800000000000000
+      internalID: 6427497518255642614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0468b5be663a2d490800000000000000
+      internalID: -7722930748556343744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246451d9ab7f68bc0800000000000000
+      internalID: -3781062456259557822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e032277b01e68160800000000000000
+      internalID: 7027551707917856996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cbe02ca49b2c560800000000000000
+      internalID: 7332626874047052837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8802d77740f349b00800000000000000
+      internalID: 834361119387492488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea0360e2cc11a5b0800000000000000
+      internalID: -5358970458280359198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c0be5b46ea999c0800000000000000
+      internalID: -3919910253077263357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728f5c2aeec2473f0800000000000000
+      internalID: -904048221749905369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2cbd5f851611520800000000000000
+      internalID: 2671023088717251281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78214b6421054d800800000000000000
+      internalID: 636221486791922311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e41544d3e33b10800000000000000
+      internalID: 1960160763667866029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c473d7f31ca0a8160800000000000000
+      internalID: 7028441993575216972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a1e9cf7793bada0800000000000000
+      internalID: -5932584896628385215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4064e1e1d2374b0800000000000000
+      internalID: -5443957917180623654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1263de49d7d0e2910800000000000000
+      internalID: 1814402532897535521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46258ef13383ce7b0800000000000000
+      internalID: -5193714478035217820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c6ef7ee841797a0800000000000000
+      internalID: -6370600543882154859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc08d52df58a8180800000000000000
+      internalID: -9112323573722641194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3869196eb8bd01bd0800000000000000
+      internalID: -2661385985860725117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a897b2474447ea0800000000000000
+      internalID: -5875996348075373935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97881f150a74ac440800000000000000
+      internalID: 4956853093769775225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e4e87ccf7627640800000000000000
+      internalID: 5076234065377382006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa3bc56592f9f820800000000000000
+      internalID: 2952657754189937326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d73d2da3ad7a2830800000000000000
+      internalID: 4047185357084374992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f5ff1b3e3d5b740800000000000000
+      internalID: 5167269122374852441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5757f7444ec7120800000000000000
+      internalID: 2413054483211056630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd333c09ccba182c0800000000000000
+      internalID: -4431071663265467429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf3874225c59850800000000000000
+      internalID: 6383224797886938043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89660216d3c097410800000000000000
+      internalID: 1475223810702599832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee56d81a50a76d020800000000000000
+      internalID: 2366212818833597934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72e5e0a3df6dbdf0800000000000000
+      internalID: -162851056787266945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_64
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2542efb73d1d980800000000000000
+      internalID: -8515792890882665737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a592ddc7936846470800000000000000
+      internalID: 8386975987536832858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c136a26b14dfb7d0800000000000000
+      internalID: -2900366420919045693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df39f16277b3fa7f0800000000000000
+      internalID: -599194842490235907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d665a06b0778c81c0800000000000000
+      internalID: -4500073009489750419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31d75be573922100800000000000000
+      internalID: 81789877914947902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344f4fe30499e6b40800000000000000
+      internalID: 5435450301495964739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f584bc3e1bf507d70800000000000000
+      internalID: 9038829669768185951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcf895efb52f0800800000000000000
+      internalID: 580724383075073265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b076d50f5aed79c0800000000000000
+      internalID: -3927725606156472135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a5dc1d273c96900800000000000000
+      internalID: 678288116809554542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619a544e8b11aa7a0800000000000000
+      internalID: -6365255637533349610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a51d26ed1cf1980800000000000000
+      internalID: -8565914805350606287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c6df7379dd2460800000000000000
+      internalID: 7218664867834021091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c1c6c9e3e5bf60800000000000000
+      internalID: 8049590502196102406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f973715adf94d280800000000000000
+      internalID: -9019408393698051595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991075c661f981e10800000000000000
+      internalID: 2168658139234632089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa1c5055bf15c4f0800000000000000
+      internalID: -809205694445380878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4859ce5ff91dffed0800000000000000
+      internalID: -2377951593272404604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea1a93f3a311540800000000000000
+      internalID: 4976823106445356731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e0a34bf87a01190800000000000000
+      internalID: -7993705102936764787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04c81aa1835c4b0800000000000000
+      internalID: -5420864889439895358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f057ebac1c21560800000000000000
+      internalID: 7283096623934410604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f473b805e4d240b0800000000000000
+      internalID: -5745796094412753673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3e616a3f78df440800000000000000
+      internalID: 4971279044220216226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_89
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414acd94614101c70800000000000000
+      internalID: 8939667346291467284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98a13898ebd80380800000000000000
+      internalID: -9004705662895019878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc70b908e06f5900800000000000000
+      internalID: 675365018840104134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_92
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c08357108aadda0800000000000000
+      internalID: -5919234036010054625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_93
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94edcae8d8d9bb360800000000000000
+      internalID: 7186510861709401673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c0ab28034515c0800000000000000
+      internalID: -4245413371356069710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_95
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be1a6c0b8de48d60800000000000000
+      internalID: 7891693628524469939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e8876c9ee5715c0800000000000000
+      internalID: -4244819765623222699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_97
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e849dad36893e3d90800000000000000
+      internalID: -7116187112475618162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44629909936d2090800000000000000
+      internalID: -8057674649354214322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c223e0a978cb950800000000000000
+      internalID: 6466192260730072144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bede4b2693617120800000000000000
+      internalID: 2409816772242759347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227fae9ad038079d0800000000000000
+      internalID: -2778576875379034334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_102
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcdeb0088452bc30800000000000000
+      internalID: 4373651131234966719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c61251dc054c9a30800000000000000
+      internalID: 4223326471920424640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_104
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459c400d2e164db10800000000000000
+      internalID: 2005335360867191124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_105
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9056f8467cd83a770800000000000000
+      internalID: 8620889999242388745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ba66954289f420800000000000000
+      internalID: 2664303889954289116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_107
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b76888dac8cbb3d0800000000000000
+      internalID: -3189735137520097353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_108
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36e6ddd4963be8b0800000000000000
+      internalID: -5121940138198899142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7542ae234f8c3f040800000000000000
+      internalID: 4680305388919858263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a893bfcb75cffaa0800000000000000
+      internalID: -6124959832644282199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_111
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb5e557aa395bf50800000000000000
+      internalID: 6896580764710624197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a220083ba7ec2ad30800000000000000
+      internalID: 4441339208933573162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_113
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73d9d154a650d5b0800000000000000
+      internalID: -5345677493940923522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb56037e599b9540800000000000000
+      internalID: 5015771240942951423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_115
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d193b389daa6e360800000000000000
+      internalID: 7198628905592525269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_116
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda136fa4638425a0800000000000000
+      internalID: -6546963489827382562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_117
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed42027678f5f90800000000000000
+      internalID: -6962697621900828930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3090f7cb16c27a80800000000000000
+      internalID: -8470490126509633474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tilemap2_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cd35be7e4b5ba30800000000000000
+      internalID: 4230486333163035659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
