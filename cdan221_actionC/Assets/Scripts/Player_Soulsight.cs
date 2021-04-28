@@ -7,7 +7,7 @@ public class Player_Soulsight : MonoBehaviour{
 	//NOTE #2: orbCurrentPower is a static variable in the GameHandler
 	public PlayerVFX playerVFX;
 	public GameObject soulSetting;
-	private float soulTimer = 0f;
+	//private float soulTimer = 0f;
 	public bool SoulsightActive = false;
 	
 	public GameHandler gameHandler;
@@ -40,7 +40,7 @@ public class Player_Soulsight : MonoBehaviour{
 				playerVFX.powerup();
 				soulSetting.SetActive(true);
 				SoulsightActive = true;
-				Debug.Log("I hit e - on");
+				//Debug.Log("I hit e - on");
 				//soulTimer = 0f;
 				//StartCoroutine(SoulRemove(soulEnergy));
 			}
@@ -50,7 +50,7 @@ public class Player_Soulsight : MonoBehaviour{
 				SoulsightActive = false;
 				//soulTimer = 0f;
 				//StopCoroutine(SoulRemove(soulEnergy));
-				Debug.Log("I hit e - off");
+				//Debug.Log("I hit e - off");
 			}
 		}
 		if (soulEnergy <= 0){

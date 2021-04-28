@@ -16,9 +16,9 @@ public class HealthBarThirdPerson : MonoBehaviour
     public GameHandler gameHandler;
 
     //temporary time variables:
-    public float timeToDamage = 5f;
+    //public float timeToDamage = 5f;
     //private float theTimer;
-    public float damageAmt = 10f;
+    //public float damageAmt = 10f;
 
     private void Start()
     {
@@ -45,8 +45,8 @@ public class HealthBarThirdPerson : MonoBehaviour
 
     public void UseEnergy(float amount)
     {
-        SSEnergy -= amount;
-        healthBar.fillAmount = SSEnergy / startEnergy;
+        gameHandler.soulEnergy -= amount;
+        healthBar.fillAmount = gameHandler.soulEnergy / startEnergy;
         //turn red at low health:
         if (SSEnergy < 0.3f)
         {
