@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Soulsight : MonoBehaviour{
 	//NOTE: Soulsight platforms need to be active in scene before hitting play
@@ -14,6 +15,8 @@ public class Player_Soulsight : MonoBehaviour{
 	private float powerPerOrb = 0.1f;
 	public static float soulEnergy = 0;
 	public static float soulEnergyMax = 3f;
+	
+	public Image SoulsightCircle;
 	
     // Start is called before the first frame update
     void Start()
@@ -76,11 +79,17 @@ public class Player_Soulsight : MonoBehaviour{
 		}
 		
 		if ((SoulsightActive == false)&&(soulEnergy < soulEnergyMax)){ 
-			soulEnergy += 0.01f;
-			Debug.Log("" + soulEnergy);
-			gameHandler.playerUpdateSoulEnergy(+0.01f);
+			if (gameObject.GetComponent<PlayerJump>().IsGrounded()){
+				soulEnergy += 0.01f;
+				Debug.Log("" + soulEnergy);
+				gameHandler.playerUpdateSoulEnergy(+0.01f);
+			}
+			
 		}
 		
+		
+		//soulsight meter fill:
+		SoulsightCircle.fillAmount = soulEnergy / soulEnergyMax; 
 		
 				
 	}
