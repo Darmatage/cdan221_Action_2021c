@@ -13,7 +13,7 @@ public class Player_Soulsight : MonoBehaviour{
 	public GameHandler gameHandler;
 	private float powerPerOrb = 0.1f;
 	public static float soulEnergy = 0;
-	public static float soulEnergyMax = 6f;
+	public static float soulEnergyMax = 3f;
 	
     // Start is called before the first frame update
     void Start()
