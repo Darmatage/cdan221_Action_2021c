@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Player_Soulsight : MonoBehaviour{
+	public AudioSource SoulsightOn;
+	public AudioSource SoulsightOff;
 	//NOTE: Soulsight platforms need to be active in scene before hitting play
 	//NOTE #2: orbCurrentPower is a static variable in the GameHandler
 	public PlayerVFX playerVFX;
@@ -41,6 +43,7 @@ public class Player_Soulsight : MonoBehaviour{
         if (Input.GetButtonDown("SoulSight") && (soulSetting != null)){
 			if ((soulEnergy > 0) && (SoulsightActive == false)){
 				playerVFX.powerup();
+				SoulsightOn.Play();
 				soulSetting.SetActive(true);
 				SoulsightActive = true;
 				//Debug.Log("I hit e - on");
@@ -51,6 +54,7 @@ public class Player_Soulsight : MonoBehaviour{
 				//playerVFX.powerup();
 				soulSetting.SetActive(false);
 				SoulsightActive = false;
+				SoulsightOff.Play();
 				//soulTimer = 0f;
 				//StopCoroutine(SoulRemove(soulEnergy));
 				//Debug.Log("I hit e - off");
