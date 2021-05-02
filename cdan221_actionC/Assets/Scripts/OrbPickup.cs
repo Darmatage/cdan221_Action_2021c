@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OrbPickup : MonoBehaviour
 {
-    public AudioSource orbpickup;
+    public AudioSource orbpickupSFX;
     public Player_Soulsight playerSoulSight;
     public PlayerVFX playerVFX;
     public bool isHealthPickUp = true;
@@ -24,13 +24,24 @@ public class OrbPickup : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
-           
+			
             gameObject.GetComponent<Collider2D>().enabled = false;
-            playerSoulSight.playerGetOrbs(newOrbs);
+			
+            orbpickupSFX.Play();
+			
+			playerSoulSight.playerGetOrbs(newOrbs);
             Debug.Log(newOrbs);
             playerVFX.powerup();
-            orbpickup.Play();
-            Destroy(gameObject);
+            
+			gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            StartCoroutine(destroyOrb());
         }
     }
+	
+	IEnumerator destroyOrb(){
+		yield return new WaitForSeconds(1f);
+		Destroy(gameObject);
+	}
+	
+	
 }

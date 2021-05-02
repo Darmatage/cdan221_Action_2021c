@@ -745,6 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 1
   BGrend: {fileID: 452984408}
+  isSprite: 0
 --- !u!64 &452984407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22182,6 +22183,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &521840287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6943950845876676468, guid: d934c3d4f44e2be49a041b8a723db48e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3180538155373308981}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &575180708
 GameObject:
   m_ObjectHideFlags: 0
@@ -22309,6 +22322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 677038685}
+  isSprite: 0
 --- !u!64 &677038684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23287,6 +23301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 1116975087}
+  isSprite: 0
 --- !u!64 &1116975086
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23477,6 +23492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 1320864039}
+  isSprite: 0
 --- !u!64 &1320864038
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25341,6 +25357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 2125594119}
+  isSprite: 0
 --- !u!64 &2125594118
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25541,6 +25558,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3145841404671810399, guid: e2b535debd87e694cb98ae7b920a16b2,
+        type: 3}
+      propertyPath: SoulsightCircle
+      value: 
+      objectReference: {fileID: 521840287}
     - target: {fileID: 8573730520838957643, guid: e2b535debd87e694cb98ae7b920a16b2,
         type: 3}
       propertyPath: m_Enabled
@@ -25927,6 +25949,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 926235171937073857, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4869791866996163644, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
         type: 3}
       propertyPath: m_PlayOnAwake

@@ -7,6 +7,8 @@ public class BG_Scroll : MonoBehaviour
 	public float BGspeed = 0.5f;
 	public Renderer BGrend;
 
+	public bool isSprite = false;
+
 	void Start()
 	{
 		BGrend = GetComponent<Renderer>();
@@ -17,6 +19,10 @@ public class BG_Scroll : MonoBehaviour
 	void Update()
 	{
 		Vector2 hOffset = new Vector2(Time.time * BGspeed, 0);
-		BGrend.material.mainTextureOffset = hOffset;
+		if (isSprite == false){
+			BGrend.material.mainTextureOffset = hOffset;
+		} else {
+			//gameObject.GetComponent<SpriteRenderer>().material.MainTextureOffset = hOffset;; 
+		}
 	}
 }
