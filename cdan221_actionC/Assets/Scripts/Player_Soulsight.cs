@@ -74,7 +74,7 @@ public class Player_Soulsight : MonoBehaviour{
 		if (SoulsightActive == true){
 			//soulTimer += 0.01f;
 			soulEnergy -= 0.01f;
-			Debug.Log("" + soulEnergy);
+			//Debug.Log("" + soulEnergy);
 			gameHandler.playerUpdateSoulEnergy(-0.01f);
 			if (soulEnergy <= 0){
 				SoulsightActive = false;
