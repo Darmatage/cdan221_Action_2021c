@@ -7,7 +7,7 @@ public class PlayerBottomRespawn : MonoBehaviour
 
     public GameHandler gameHandler;
     public Transform playerPos;
-    public Transform pSpawn;
+    private Transform pSpn;
     private GameObject player;
     public Rigidbody2D rb2D;
     public int damage = 10;
@@ -22,6 +22,8 @@ public class PlayerBottomRespawn : MonoBehaviour
 
     void Update()
     {
+        pSpn = player.GetComponent<PlayerRespawn>().pSpawn;
+
         if (playerPos != null)
         {
             if (transform.position.y >= playerPos.position.y)
@@ -32,7 +34,7 @@ public class PlayerBottomRespawn : MonoBehaviour
                 GameHandler.CurrentHealth = 100;
                 //gameHandler.TakeDamage(damage);
                 rb2D.isKinematic = false;
-                Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, playerPos.position.z);
+                Vector3 pSpn2 = new Vector3(pSpn.position.x, pSpn.position.y, playerPos.position.z);
                 playerPos.position = pSpn2;
                 
             }

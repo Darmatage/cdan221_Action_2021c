@@ -337,8 +337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 207e65e1272fa6a43b826ca2a1f5e577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameHandler: {fileID: 0}
-  pSpawn: {fileID: 1086874904}
+  gameHandler: {fileID: 617982132}
+  pSpawn: {fileID: 1564794712}
   rb2D: {fileID: 0}
 --- !u!82 &4877123
 AudioSource:
@@ -23247,12 +23247,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3180538155373308981}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1086874904 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6190639215733588307, guid: c9bbbbf9239cf32448ae3afdaaf8420d,
-    type: 3}
-  m_PrefabInstance: {fileID: 6190639216812041291}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116975083
 GameObject:
   m_ObjectHideFlags: 0
@@ -23663,7 +23657,7 @@ GameObject:
   m_Layer: 0
   m_Name: PlayerSpawnStart
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -25478,7 +25472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameHandler: {fileID: 617982132}
   playerPos: {fileID: 482358548}
-  pSpawn: {fileID: 1564794712}
   rb2D: {fileID: 0}
   damage: 10
 --- !u!1001 &2864654467356123256
@@ -25705,12 +25698,12 @@ PrefabInstance:
     - target: {fileID: 6190639215733588307, guid: c9bbbbf9239cf32448ae3afdaaf8420d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 19.43
       objectReference: {fileID: 0}
     - target: {fileID: 6190639215733588307, guid: c9bbbbf9239cf32448ae3afdaaf8420d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.48
       objectReference: {fileID: 0}
     - target: {fileID: 6190639215733588307, guid: c9bbbbf9239cf32448ae3afdaaf8420d,
         type: 3}
@@ -25762,6 +25755,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: checkPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 6190639215733588317, guid: c9bbbbf9239cf32448ae3afdaaf8420d,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9bbbbf9239cf32448ae3afdaaf8420d, type: 3}
 --- !u!1001 &6536777979630069225
