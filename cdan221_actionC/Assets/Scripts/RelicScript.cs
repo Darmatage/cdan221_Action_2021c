@@ -63,7 +63,7 @@ public class RelicScript : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Destroy(boxcollider);
-            Debug.Log("Destroy rb");
+            //Debug.Log("Destroy rb");
         }
     }
 }

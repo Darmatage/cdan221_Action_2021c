@@ -43,6 +43,7 @@ public class Player_Soulsight : MonoBehaviour{
         if (Input.GetButtonDown("SoulSight") && (soulSetting != null)){
 			if ((soulEnergy > 0) && (SoulsightActive == false)){
 				playerVFX.powerup();
+				playerVFX.powerup3();
 				SoulsightOn.Play();
 				soulSetting.SetActive(true);
 				SoulsightActive = true;
@@ -56,6 +57,7 @@ public class Player_Soulsight : MonoBehaviour{
 				SoulsightActive = false;
 				SoulsightOff.Play();
 				playerVFX.powerup2();
+				//StopCoroutine(playerVFX.powerup3);
 				//soulTimer = 0f;
 				//StopCoroutine(SoulRemove(soulEnergy));
 				//Debug.Log("I hit e - off");
@@ -86,7 +88,7 @@ public class Player_Soulsight : MonoBehaviour{
 		if ((SoulsightActive == false)&&(soulEnergy < soulEnergyMax)){ 
 			if (gameObject.GetComponent<PlayerJump>().IsGrounded()){
 				soulEnergy += 0.01f;
-				Debug.Log("" + soulEnergy);
+				//Debug.Log("" + soulEnergy);
 				gameHandler.playerUpdateSoulEnergy(+0.01f);
 			}
 			
