@@ -31,7 +31,7 @@ public class OrbPickup : MonoBehaviour
 			
 			playerSoulSight.playerGetOrbs(newOrbs);
             Debug.Log(newOrbs);
-            playerVFX.powerup();
+            playerVFX.powerup2();
             
 			gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
             StartCoroutine(destroyOrb());

@@ -55,6 +55,7 @@ public class Player_Soulsight : MonoBehaviour{
 				soulSetting.SetActive(false);
 				SoulsightActive = false;
 				SoulsightOff.Play();
+				playerVFX.powerup2();
 				//soulTimer = 0f;
 				//StopCoroutine(SoulRemove(soulEnergy));
 				//Debug.Log("I hit e - off");

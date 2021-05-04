@@ -38,7 +38,7 @@ public class RelicScript : MonoBehaviour
         {
 
             player.GetComponent<Player_Soulsight>().enabled = true;
-            playerVFX.powerup();
+            playerVFX.powerup2();
             canvas.SetActive(true);
             StartCoroutine(DeleteText1());
             text2.SetActive(false);
