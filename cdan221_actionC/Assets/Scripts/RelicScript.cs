@@ -16,6 +16,9 @@ public class RelicScript : MonoBehaviour
 
     public GameObject orbs;
     public GameObject soulSetting;
+    //public GameObject arrows;
+    public GameObject arrow1;
+    public GameObject arrow2;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,10 @@ public class RelicScript : MonoBehaviour
         soulSetting = GameObject.FindWithTag("Soulsight");
         soulSetting.SetActive(false);
         orbs.active = false;
+        //arrows = GameObject.FindWithTag("Arrow");
+        //arrows.SetActive(false);
+        arrow1.SetActive(false);
+        arrow2.SetActive(false);
 
     }
 
@@ -52,6 +59,9 @@ public class RelicScript : MonoBehaviour
             text2.SetActive(false);
             orbs.active = true;
             soulSetting.SetActive(true);
+            //arrows.SetActive(true);
+            arrow1.SetActive(true);
+            arrow2.SetActive(true);
         }
         IEnumerator DeleteText1()
         {
@@ -62,7 +72,7 @@ public class RelicScript : MonoBehaviour
         }
         IEnumerator DeleteText2()
         {
-            yield return new WaitForSeconds(4.0f);
+            yield return new WaitForSeconds(5.0f);
             text1.SetActive(false);
             text2.SetActive(false);
             Destroy(gameObject);

@@ -24,7 +24,7 @@ public class Player_Soulsight : MonoBehaviour{
     void Start()
     {
 		playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
-		
+
 		if (GameObject.FindWithTag("Soulsight") != null){
 			soulSetting = GameObject.FindWithTag("Soulsight");
 			soulSetting.SetActive(false);
