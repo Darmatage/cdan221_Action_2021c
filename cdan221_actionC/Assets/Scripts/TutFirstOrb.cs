@@ -19,14 +19,19 @@ public class TutFirstOrb : MonoBehaviour
     public Canvas canvas;
     public GameObject orb1UI;
 
+    public GameObject arrow1;
+    public GameObject arrow2;
+
     // Start is called before the first frame update
     void Start()
     {
+        orb1UI.SetActive(false);
+        //orb1UI = canvas.transform.GetChild(0).gameObject;
         text3.SetActive(false);
 
         playerSoulSight = GameObject.FindWithTag("Player").GetComponent<Player_Soulsight>();
         playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
-        orb1UI.SetActive(false);
+       
     }
 
     // Update is called once per frame
@@ -38,6 +43,10 @@ public class TutFirstOrb : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
+            orb1UI.SetActive(true);
+
+            arrow1.SetActive(false);
+            arrow2.SetActive(false);
 
             gameObject.GetComponent<Collider2D>().enabled = false;
             StartCoroutine(PlayText3());
@@ -50,8 +59,6 @@ public class TutFirstOrb : MonoBehaviour
 
             gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
             StartCoroutine(destroyOrb());
-
-            orb1UI.SetActive(true);
 
         }
     }

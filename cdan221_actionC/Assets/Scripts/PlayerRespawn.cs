@@ -22,7 +22,7 @@ public class PlayerRespawn : MonoBehaviour
             if (GameHandler.CurrentHealth <= 0)
             {
                 //comment out lines from GameHandler abotu EndLose screen
-                Debug.Log("I am going back to the last spawn point");
+                Debug.Log("I am going back to the last spawn point! pSpawn= " + pSpawn);
                 Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, transform.position.z);
                 gameObject.transform.position = pSpn2;
                 GameHandler.playerHealth = 100;
@@ -34,9 +34,11 @@ public class PlayerRespawn : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "CheckPoint")
+        if (other.gameObject.tag == "Checkpoint")
         {
+            
             pSpawn = other.gameObject.transform;
+            Debug.Log("I hit the checkpoint! pSpawn= " + pSpawn);
             GameObject thisCheckpoint = other.gameObject;
             StopCoroutine(changeColor(thisCheckpoint));
             StartCoroutine(changeColor(thisCheckpoint));
@@ -45,8 +47,8 @@ public class PlayerRespawn : MonoBehaviour
 
     IEnumerator changeColor(GameObject thisCheckpoint)
     {
-        Renderer checkRend = thisCheckpoint.GetComponent<Renderer>();
-        checkRend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
+        Renderer checkRend = thisCheckpoint.GetComponentInChildren<Renderer>();
+        checkRend.material.color = new Color(2.4f, 2.0f, 0.9f, 0.5f);
         yield return new WaitForSeconds(0.5f);
         checkRend.material.color = Color.white;
     }

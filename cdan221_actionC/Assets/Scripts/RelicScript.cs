@@ -19,10 +19,14 @@ public class RelicScript : MonoBehaviour
     //public GameObject arrows;
     public GameObject arrow1;
     public GameObject arrow2;
+    //public SpriteRenderer sprite;
 
     // Start is called before the first frame update
     void Start()
     {
+        arrow1.SetActive(false);
+        arrow2.SetActive(false);
+
         player = GameObject.FindWithTag("Player");
         playerSoulSight = GameObject.FindWithTag("Player").GetComponent<Player_Soulsight>();
         player.GetComponent<Player_Soulsight>().enabled = false;
@@ -35,10 +39,10 @@ public class RelicScript : MonoBehaviour
         soulSetting = GameObject.FindWithTag("Soulsight");
         soulSetting.SetActive(false);
         orbs.active = false;
+        //sprite = gameObject.GetComponentInChildren<SpriteRenderer>();
         //arrows = GameObject.FindWithTag("Arrow");
         //arrows.SetActive(false);
-        arrow1.SetActive(false);
-        arrow2.SetActive(false);
+
 
     }
 
@@ -51,7 +55,10 @@ public class RelicScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            arrow1.SetActive(true);
+            arrow2.SetActive(true);
 
+            //gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
             player.GetComponent<Player_Soulsight>().enabled = true;
             playerVFX.powerup2();
             canvas.SetActive(true);
@@ -60,8 +67,7 @@ public class RelicScript : MonoBehaviour
             orbs.active = true;
             soulSetting.SetActive(true);
             //arrows.SetActive(true);
-            arrow1.SetActive(true);
-            arrow2.SetActive(true);
+            
         }
         IEnumerator DeleteText1()
         {
