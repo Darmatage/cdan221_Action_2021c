@@ -19,6 +19,9 @@ public class TutFirstOrb : MonoBehaviour
     public Canvas canvas;
     public GameObject orb1UI;
 
+    public GameObject arrow1;
+    public GameObject arrow2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +41,8 @@ public class TutFirstOrb : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
+            arrow1.SetActive(false);
+            arrow2.SetActive(false);
 
             gameObject.GetComponent<Collider2D>().enabled = false;
             StartCoroutine(PlayText3());

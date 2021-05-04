@@ -766,6 +766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 1
   BGrend: {fileID: 452984408}
+  isSprite: 0
 --- !u!64 &452984407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22605,6 +22606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 677038685}
+  isSprite: 0
 --- !u!64 &677038684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25375,6 +25377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 1116975087}
+  isSprite: 0
 --- !u!64 &1116975086
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -136647,6 +136650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BGspeed: 0.5
   BGrend: {fileID: 2125594119}
+  isSprite: 0
 --- !u!64 &2125594118
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -136737,12 +136741,12 @@ PrefabInstance:
     - target: {fileID: 2864654466606463122, guid: e2b535debd87e694cb98ae7b920a16b2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 418.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2864654466606463122, guid: e2b535debd87e694cb98ae7b920a16b2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.4
+      value: -1.7
       objectReference: {fileID: 0}
     - target: {fileID: 2864654466606463122, guid: e2b535debd87e694cb98ae7b920a16b2,
         type: 3}
