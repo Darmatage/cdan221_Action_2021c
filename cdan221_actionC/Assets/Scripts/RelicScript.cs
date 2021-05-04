@@ -14,6 +14,9 @@ public class RelicScript : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D boxcollider;
 
+    public GameObject orbs;
+    public GameObject soulSetting;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,11 @@ public class RelicScript : MonoBehaviour
         canvas.SetActive(false);
         playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
         boxcollider = GetComponent<BoxCollider2D>();
+
+        orbs = GameObject.FindWithTag("MemoryOrb");
+        soulSetting = GameObject.FindWithTag("Soulsight");
+        soulSetting.SetActive(false);
+        orbs.active = false;
 
     }
 
@@ -42,6 +50,8 @@ public class RelicScript : MonoBehaviour
             canvas.SetActive(true);
             StartCoroutine(DeleteText1());
             text2.SetActive(false);
+            orbs.active = true;
+            soulSetting.SetActive(true);
         }
         IEnumerator DeleteText1()
         {
