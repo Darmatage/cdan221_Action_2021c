@@ -11,6 +11,8 @@ public class RelicScript : MonoBehaviour
     public GameObject canvas;
     public GameObject text1;
     public GameObject text2;
+    private Rigidbody2D rb;
+    private BoxCollider2D boxcollider;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class RelicScript : MonoBehaviour
         canvas = GameObject.FindWithTag("Canvas");
         canvas.SetActive(false);
         playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
+        boxcollider = GetComponent<BoxCollider2D>();
 
     }
 
@@ -40,20 +43,27 @@ public class RelicScript : MonoBehaviour
             StartCoroutine(DeleteText1());
             text2.SetActive(false);
         }
-
         IEnumerator DeleteText1()
         {
-            yield return new WaitForSeconds(3.0f);
-            text1.SetActive(false);
+            yield return new WaitForSeconds(2.0f);
             text2.SetActive(true);
             StartCoroutine(DeleteText2());
-            
+
         }
         IEnumerator DeleteText2()
         {
-            yield return new WaitForSeconds(5.0f);
+            yield return new WaitForSeconds(4.0f);
+            text1.SetActive(false);
             text2.SetActive(false);
             Destroy(gameObject);
+        }
+    }
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Destroy(boxcollider);
+            Debug.Log("Destroy rb");
         }
     }
 }
