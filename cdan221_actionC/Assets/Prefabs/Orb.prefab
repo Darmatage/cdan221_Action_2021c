@@ -183,6 +183,8 @@ MonoBehaviour:
   newOrbs: 1
   speedBoost: 1
   speedTime: 1
+  canvas: {fileID: 0}
+  orb1UI: {fileID: 0}
 --- !u!82 &926235171937073857
 AudioSource:
   m_ObjectHideFlags: 0
