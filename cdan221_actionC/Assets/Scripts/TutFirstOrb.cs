@@ -18,7 +18,7 @@ public class TutFirstOrb : MonoBehaviour
     public float speedTime = 1f;
 
     //public Canvas canvas;
-    //public GameObject orb1UI;
+    //public GameObject orbUI;
 
     public GameObject arrow1;
     public GameObject arrow2;
@@ -26,7 +26,7 @@ public class TutFirstOrb : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //orb1UI.SetActive(false);
+        //orbUI.SetActive(false);
         //orb1UI = canvas.transform.GetChild(0).gameObject;
         text3.SetActive(false);
 
@@ -44,7 +44,7 @@ public class TutFirstOrb : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
-            //orb1UI.SetActive(true);
+            //orbUI.SetActive(true);
 
             arrow1.SetActive(false);
             arrow2.SetActive(false);
