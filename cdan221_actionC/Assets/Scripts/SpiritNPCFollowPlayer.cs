@@ -59,15 +59,14 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     void Update()
     {
         float DistToPlayer = Vector3.Distance(transform.position, player.position);
-        if ((player != null) && (DistToPlayer >= attackRange))
+        if ((player != null) && (DistToPlayer <= attackRange))
         {
-            transform.position = this.transform.position;
-            //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
         
         {
             // approach player
-            if (Vector2.Distance(transform.position, player.position) <= attackRange)
+            if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
                 Vector2 lookDir = PlayerVect - rb.position;
