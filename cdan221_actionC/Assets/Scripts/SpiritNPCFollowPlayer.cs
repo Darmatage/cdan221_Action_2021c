@@ -31,6 +31,8 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     public float attackRange = 10;
 
+    //private bool FaceRight = true;
+
     void Start()
     {
         rend = GetComponentInChildren<Renderer>();
@@ -58,12 +60,19 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     void Update()
     {
+        //Vector4 hMove = new Vector4(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+
         float DistToPlayer = Vector3.Distance(transform.position, player.position);
         if ((player != null) && (DistToPlayer <= attackRange))
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
-        
+
+        //if ((hMove.x > 0 && !FaceRight) || (hMove.x < 0 && FaceRight))
+        //{
+        //    playerTurn();
+        //}
+
         {
             // approach player
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
@@ -128,5 +137,15 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+    private void playerTurn()
+    {
+        // NOTE: Switch player facing label
+        //FaceRight = !FaceRight;
+
+        // NOTE: Multiply player's x local scale by -1.
+        //Vector4 theScale = transform.localScale;
+        //theScale.x *= -1;
+        //transform.localScale = theScale;
     }
 }
