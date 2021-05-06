@@ -33,7 +33,7 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     public float attackRange = 10;
 
     private bool IsFollowing;
-    public GameObject SecondaryPlatforms;
+    //public GameObject SecondaryPlatforms;
 
     //private bool FaceRight = true;
 
@@ -41,7 +41,7 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     {
         rend = GetComponentInChildren<Renderer>();
         NextLevel.SetActive(false);
-        SecondaryPlatforms.SetActive(false);
+        //SecondaryPlatforms.SetActive(false);
         if (GameObject.FindGameObjectWithTag("Player") != null)
         {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -65,24 +65,15 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     void Update()
     {
+        if (IsFollowing == true)
+        {
+            NextLevel.SetActive(true);
+            //SecondaryPlatforms.SetActive(true);
+        }
         //Vector4 hMove = new Vector4(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
 
         float DistToPlayer = Vector3.Distance(transform.position, player.position);
         if ((player != null) && (DistToPlayer <= attackRange))
-        {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        }
-
-        if (IsFollowing == true)
-        {
-            NextLevel.SetActive(true);
-        }
-
-        //if ((hMove.x > 0 && !FaceRight) || (hMove.x < 0 && FaceRight))
-        //{
-        //    playerTurn();
-        //}
-
         {
             // approach player
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
@@ -91,7 +82,6 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
                 Vector2 lookDir = PlayerVect - rb.position;
                 float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -90f;
                 rb.rotation = angle;
-                IsFollowing = true;
             }
             // stop moving
             else if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
@@ -108,12 +98,12 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
             //if (timeBtwShots <= 0)
             //{
-               // Instantiate(projectile, transform.position, Quaternion.identity);
-                //timeBtwShots = startTimeBtwShots;
+            // Instantiate(projectile, transform.position, Quaternion.identity);
+            //timeBtwShots = startTimeBtwShots;
             //}
             //else
             //{
-                //timeBtwShots -= Time.deltaTime;
+            //timeBtwShots -= Time.deltaTime;
             //}
         }
     }
@@ -149,8 +139,8 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     {
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
-    private void playerTurn()
-    {
+    //private void playerTurn()
+    //{
         // NOTE: Switch player facing label
         //FaceRight = !FaceRight;
 
@@ -158,5 +148,5 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
         //Vector4 theScale = transform.localScale;
         //theScale.x *= -1;
         //transform.localScale = theScale;
-    }
+    //}
 }
