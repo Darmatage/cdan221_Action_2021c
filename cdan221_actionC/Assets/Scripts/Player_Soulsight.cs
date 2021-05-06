@@ -85,12 +85,13 @@ public class Player_Soulsight : MonoBehaviour{
 			}
 		}
 		
-		if ((SoulsightActive == false)&&(soulEnergy < soulEnergyMax)){ 
-			if (gameObject.GetComponent<PlayerJump>().IsGrounded()){
+		if ((SoulsightActive == false)&&(soulEnergy < soulEnergyMax))
+		{ 
+			//if (gameObject.GetComponent<PlayerJump>().IsGrounded()){
 				soulEnergy += 0.01f;
 				//Debug.Log("" + soulEnergy);
 				gameHandler.playerUpdateSoulEnergy(+0.01f);
-			}
+			//}
 			
 		}
 		

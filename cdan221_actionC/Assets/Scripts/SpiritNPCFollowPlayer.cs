@@ -28,13 +28,21 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     public int EnemyLives = 3;
     private Renderer rend;
     private GameHandler gameHandler;
+    public GameObject NextLevel;
 
     public float attackRange = 10;
+
+    private bool IsFollowing = false;
+    private bool FaceRight = true;
+    //public GameObject SecondaryPlatforms;
+
+    //private bool FaceRight = true;
 
     void Start()
     {
         rend = GetComponentInChildren<Renderer>();
-
+        NextLevel.SetActive(false);
+        //SecondaryPlatforms.SetActive(false);
         if (GameObject.FindGameObjectWithTag("Player") != null)
         {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -58,16 +66,26 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     void Update()
     {
+        Vector3 hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+        if ((hMove.x > 0 && !FaceRight) || (hMove.x < 0 && FaceRight))
+        {
+            playerTurn();
+        }
+
+        if (IsFollowing == true)
+        {
+            NextLevel.SetActive(true);
+            //SecondaryPlatforms.SetActive(true);
+        }
+        //Vector4 hMove = new Vector4(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+
         float DistToPlayer = Vector3.Distance(transform.position, player.position);
         if ((player != null) && (DistToPlayer <= attackRange))
-        {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        }
-        
         {
             // approach player
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
+                IsFollowing = true;
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
                 Vector2 lookDir = PlayerVect - rb.position;
                 float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -90f;
@@ -88,26 +106,36 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
             //if (timeBtwShots <= 0)
             //{
-               // Instantiate(projectile, transform.position, Quaternion.identity);
-                //timeBtwShots = startTimeBtwShots;
+            // Instantiate(projectile, transform.position, Quaternion.identity);
+            //timeBtwShots = startTimeBtwShots;
             //}
             //else
             //{
-                //timeBtwShots -= Time.deltaTime;
+            //timeBtwShots -= Time.deltaTime;
             //}
         }
     }
 
+    private void playerTurn()
+    {
+        // NOTE: Switch player facing label
+        FaceRight = !FaceRight;
+
+        // NOTE: Multiply player's x local scale by -1.
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
 
     //public void OnCollisionEnter2D(Collision2D collision)
     //{
-        //if (collision.gameObject.tag == "Player")
-        //{
-            //anim.SetBool("Attack", true);
-            //gameHandler.playerGetHit(damage);
-            //rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
-            //StartCoroutine(HitEnemy());
-        //}
+    //if (collision.gameObject.tag == "Player")
+    //{
+    //anim.SetBool("Attack", true);
+    //gameHandler.playerGetHit(damage);
+    //rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
+    //StartCoroutine(HitEnemy());
+    //}
     //}
 
     public void OnCollisionExit2D(Collision2D collision)
@@ -129,4 +157,14 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
     {
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
+    //private void playerTurn()
+    //{
+        // NOTE: Switch player facing label
+        //FaceRight = !FaceRight;
+
+        // NOTE: Multiply player's x local scale by -1.
+        //Vector4 theScale = transform.localScale;
+        //theScale.x *= -1;
+        //transform.localScale = theScale;
+    //}
 }

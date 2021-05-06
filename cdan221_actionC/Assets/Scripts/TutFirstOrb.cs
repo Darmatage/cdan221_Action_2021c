@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TutFirstOrb : MonoBehaviour
 {
@@ -16,8 +17,8 @@ public class TutFirstOrb : MonoBehaviour
     public float speedBoost = 1f;
     public float speedTime = 1f;
 
-    public Canvas canvas;
-    public GameObject orb1UI;
+    //public Canvas canvas;
+    //public GameObject orbUI;
 
     public GameObject arrow1;
     public GameObject arrow2;
@@ -25,12 +26,12 @@ public class TutFirstOrb : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        orb1UI.SetActive(false);
+        //orbUI.SetActive(false);
         //orb1UI = canvas.transform.GetChild(0).gameObject;
         text3.SetActive(false);
 
-        playerSoulSight = GameObject.FindWithTag("Player").GetComponent<Player_Soulsight>();
-        playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
+        //playerSoulSight = GameObject.FindWithTag("Player").GetComponent<Player_Soulsight>();
+        //playerVFX = GameObject.FindWithTag("Player").GetComponent<PlayerVFX>();
        
     }
 
@@ -43,7 +44,7 @@ public class TutFirstOrb : MonoBehaviour
     {
         if ((gameObject.tag == "MemoryOrb") && (other.gameObject.tag == "Player"))
         {
-            orb1UI.SetActive(true);
+            //orbUI.SetActive(true);
 
             arrow1.SetActive(false);
             arrow2.SetActive(false);
@@ -51,14 +52,14 @@ public class TutFirstOrb : MonoBehaviour
             gameObject.GetComponent<Collider2D>().enabled = false;
             StartCoroutine(PlayText3());
 
-            orbpickupSFX.Play();
+            //orbpickupSFX.Play();
 
-            playerSoulSight.playerGetOrbs(newOrbs);
+            //playerSoulSight.playerGetOrbs(newOrbs);
             //Debug.Log(newOrbs);
-            playerVFX.powerup2();
+            //playerVFX.powerup2();
 
-            gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
-            StartCoroutine(destroyOrb());
+            //gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            //StartCoroutine(destroyOrb());
 
         }
     }
