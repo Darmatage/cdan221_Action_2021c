@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6536777978555489126}
   - component: {fileID: 6536777978555489127}
+  - component: {fileID: 2996576056554732423}
   m_Layer: 0
   m_Name: GameHandler
   m_TagString: GameHandler
@@ -45,4 +46,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartPlayerHealth: 100
   healthText: {fileID: 0}
+  soulEnergy: 0
+  energyText: {fileID: 0}
   isDefending: 0
+--- !u!114 &2996576056554732423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6536777978555489124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3d64fdb756c844da9f3290936adf15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 0}
+  mixer: {fileID: 0}

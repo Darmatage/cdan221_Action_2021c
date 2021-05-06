@@ -29,7 +29,7 @@ public class PlayerBottomRespawn : MonoBehaviour
             if (transform.position.y >= playerPos.position.y)
             {
                 //instantiate a particle effect
-                Debug.Log("I am going back to the start");
+                //Debug.Log("I am going back to the start");
                 GameHandler.playerHealth = 100;
                 GameHandler.CurrentHealth = 100;
                 //gameHandler.TakeDamage(damage);
