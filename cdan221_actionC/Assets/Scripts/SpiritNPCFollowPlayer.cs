@@ -32,7 +32,8 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     public float attackRange = 10;
 
-    private bool IsFollowing;
+    private bool IsFollowing = false;
+    private bool FaceRight = true;
     //public GameObject SecondaryPlatforms;
 
     //private bool FaceRight = true;
@@ -65,6 +66,12 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     void Update()
     {
+        Vector3 hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+        if ((hMove.x > 0 && !FaceRight) || (hMove.x < 0 && FaceRight))
+        {
+            playerTurn();
+        }
+
         if (IsFollowing == true)
         {
             NextLevel.SetActive(true);
@@ -78,6 +85,7 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
             // approach player
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
+                IsFollowing = true;
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
                 Vector2 lookDir = PlayerVect - rb.position;
                 float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -90f;
@@ -108,16 +116,26 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
         }
     }
 
+    private void playerTurn()
+    {
+        // NOTE: Switch player facing label
+        FaceRight = !FaceRight;
+
+        // NOTE: Multiply player's x local scale by -1.
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
 
     //public void OnCollisionEnter2D(Collision2D collision)
     //{
-        //if (collision.gameObject.tag == "Player")
-        //{
-            //anim.SetBool("Attack", true);
-            //gameHandler.playerGetHit(damage);
-            //rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
-            //StartCoroutine(HitEnemy());
-        //}
+    //if (collision.gameObject.tag == "Player")
+    //{
+    //anim.SetBool("Attack", true);
+    //gameHandler.playerGetHit(damage);
+    //rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
+    //StartCoroutine(HitEnemy());
+    //}
     //}
 
     public void OnCollisionExit2D(Collision2D collision)
