@@ -464,6 +464,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 926235171937073857, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8463689130426408060, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
         type: 3}
       propertyPath: m_Name
@@ -702,6 +707,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 926235171937073857, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8463689130426408060, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
         type: 3}
       propertyPath: m_Name
@@ -22755,6 +22765,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 926235171937073857, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8463689130426408060, guid: f2ddda3b8a6a6204e9fb2b25c89d4423,
         type: 3}
       propertyPath: m_Name
