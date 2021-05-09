@@ -52,7 +52,7 @@ public class PauseMenu : MonoBehaviour {
       public void Restart(){
             Time.timeScale = 1f;
             //restart the game:
-            //SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene ("MainMenu");
       }
 
