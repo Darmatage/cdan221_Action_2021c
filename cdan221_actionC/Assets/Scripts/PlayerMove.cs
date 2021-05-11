@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     private bool FaceRight = true; // determine which way player is facing.
     public float runSpeed = 10f;
     public bool isAlive = true;
+	private Vector3 hMove;
 
     void Start()
     {
@@ -20,11 +21,11 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         //NOTE: Horizontal axis: [a] / left arrow is -1, [d] / right arrow is 1
-        Vector3 hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+        hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
         if (isAlive == true)
         {
-            
             transform.position = transform.position + hMove * runSpeed * Time.deltaTime;
+			//rb2D.angularVelocity = 0f;
         }
 
          if (Input.GetAxis("Horizontal") != 0){ 
@@ -42,7 +43,18 @@ public class PlayerMove : MonoBehaviour
         {
             playerTurn();
         }
+		
+
     }
+
+
+    void FixedUpdate()
+    {
+		//slow down on hills
+		if (hMove.x == 0){
+			rb2D.velocity = new Vector2(rb2D.velocity.x / 1.1f, rb2D.velocity.y) ;
+		}
+	}
 
     private void playerTurn()
     {
@@ -55,3 +67,4 @@ public class PlayerMove : MonoBehaviour
         transform.localScale = theScale;
     }
 }
+
