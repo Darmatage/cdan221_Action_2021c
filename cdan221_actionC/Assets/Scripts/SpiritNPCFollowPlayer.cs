@@ -38,6 +38,9 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     //private bool FaceRight = true;
 
+	public bool foundMyPlayer = false;
+
+
     void Start()
     {
         rend = GetComponentInChildren<Renderer>();
@@ -64,8 +67,7 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
 
     }
 
-    void Update()
-    {
+    void Update(){
         Vector3 hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
         if ((hMove.x > 0 && !FaceRight) || (hMove.x < 0 && FaceRight))
         {
@@ -80,8 +82,9 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
         //Vector4 hMove = new Vector4(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
 
         float DistToPlayer = Vector3.Distance(transform.position, player.position);
-        if ((player != null) && (DistToPlayer <= attackRange))
+        if ((player != null) && ((DistToPlayer <= attackRange) || (foundMyPlayer == true) ))
         {
+			foundMyPlayer = true; //awwwww...
             // approach player
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
@@ -114,6 +117,7 @@ public class SpiritNPCFollowPlayer : MonoBehaviour
             //timeBtwShots -= Time.deltaTime;
             //}
         }
+		
     }
 
     private void playerTurn()
