@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40888d5b31de30341b4c6b51cee5d1bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 2
+  fallMultiplier: 1.7
   lowJumpMultiplier: 2
 --- !u!114 &4631722650767973695
 MonoBehaviour:
