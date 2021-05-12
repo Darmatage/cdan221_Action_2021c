@@ -10,7 +10,6 @@ public class PauseMenu : MonoBehaviour {
       public static bool GameisPaused = false;
       public GameObject pauseMenuUI;
       public AudioMixer mixer;
-	  public AudioMixer sfxmixer;
       public static float volumeLevel = 1.0f;
 	  public static float volumeLevel2 = 1.0f;
       private Slider sliderVolumeCtrl;
@@ -81,7 +80,7 @@ public class PauseMenu : MonoBehaviour {
       }
 	  
 	  public void SetLevelSFX (float sliderValue){
-            sfxmixer.SetFloat("SFXVolume", Mathf.Log10 (sliderValue) * 20);
+            mixer.SetFloat("SFXVolume", Mathf.Log10 (sliderValue) * 20);
             volumeLevel2 = sliderValue;
       }
 
