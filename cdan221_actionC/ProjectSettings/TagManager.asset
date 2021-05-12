@@ -12,6 +12,7 @@ TagManager:
   - SpiritNPC
   - Canvas
   - Arrow
+  - PauseMenuSlider2
   layers:
   - Default
   - TransparentFX
